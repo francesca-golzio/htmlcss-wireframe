@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+/* Body */
+body {
+  width: 512px;
+}
+
 /* Header */
 header {
   padding: 15px;
