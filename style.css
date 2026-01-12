@@ -1,3 +1,4 @@
+/* CSS reset */
 *{
   box-sizing: border-box;
   margin: 0;
@@ -9,32 +10,34 @@ body {
   width: 512px;
 }
 
-/* Header */
-header {
-  padding: 15px;
-}
+  /* Header */
+  header {
+    padding: 15px;
+  }
 
-/* Main */
-main {
-  padding: 15px 35px;
-  padding-bottom: 0;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-}
+  /* Main */
+  main {
+    padding: 15px 35px;
+    
+    /* Evitiamo somme di padding tra 'main' e ultima 'card' */
+    padding-bottom: 0;
 
-/* Main Cards */
-.card {
-  padding: 20px 15px;
-  margin-bottom: 15px;
-  border: 2px solid black;
-}
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
 
-/* Footer */
+  /* Main Cards */
+  .card {
+    padding: 20px 15px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+  }
 
-footer {
-  padding: 10px 15px;
-}
-
-span {
-  color: rgb(11, 34, 211);
-}
+  /* Footer */
+  footer {
+    padding: 10px 15px;
+  }
+    /* Coloriamo il 'cuoricino' */
+    span {
+      color: rgb(11, 34, 211);
+    }
