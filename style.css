@@ -27,3 +27,13 @@ main {
   margin-bottom: 15px;
   border: 2px solid black;
 }
+
+/* Footer */
+
+footer {
+  padding: 10px 15px;
+}
+
+span {
+  color: rgb(11, 34, 211);
+}
